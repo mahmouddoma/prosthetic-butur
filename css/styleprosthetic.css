@@ -135,49 +135,14 @@ svg {
   background: rgb(60, 68, 99);
 }
 
-/* Stats Section */
-.stats-section {
-  padding: 20px 0;
-}
-
 /* footer */
-/* Logo */
-.footer-logo-wrapper {
-  position: absolute;
-  left: 40px;
-  width: auto;
-}
 
-.footer-logo {
-  max-width: 190px;
-  position: relative;
-  bottom: 0px;
-  right: 40px;
-}
-
-@media screen and (max-width: 800px) {
-  .mobile-logo {
-    position: static;
-    margin: 0 auto;
-    max-width: 55px;
-  }
-}
 /* Footer Bottom */
 .bg-dark {
   background-color: rgba(16, 24, 64, 1) !important;
 }
 
 /* Care Card Styles */
-.image-wrapper-foot {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: stretch;
-  background-color: #f5f5f5;
-  border-radius: var(--radius-sm);
-  overflow: hidden;
-  box-shadow: var(--shadow-card);
-  padding: 0px;
-}
 
 .care-icon {
   background-color: var(--main-purple);
@@ -187,22 +152,6 @@ svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
-}
-
-.care-icon svg {
-  width: 32px;
-  height: 32px;
-}
-
-.care-card h3 {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-
-.care-card p {
-  font-size: 16px;
-  line-height: 1.6;
   margin-bottom: 20px;
 }
 
